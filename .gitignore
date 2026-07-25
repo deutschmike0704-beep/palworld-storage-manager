@@ -55,6 +55,9 @@ tools/dumps/**
 **/shared/types/
 **/Mods/shared/
 
+# === Local mod overrides (per-machine) ===
+src/PalStorageManager/Scripts/config/user.lua
+
 # === Game install / local paths ===
 local/
 .gamepath

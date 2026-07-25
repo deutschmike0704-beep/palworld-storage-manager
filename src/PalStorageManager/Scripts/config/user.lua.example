@@ -1,0 +1,37 @@
+--[[
+  user.lua.example — copy to user.lua (same folder) to override defaults.
+  Only include the keys you want to change; everything merges over
+  config/defaults.lua. Alternative location: <mod root>/config/config.lua.
+]]
+
+return {
+  -- log_level = "debug",
+
+  -- weight = {
+  --   enabled = true,
+  --   infinite_max_weight = 1000000,
+  --   -- Multiplayer, strict guild check only:
+  --   -- assume_own_base_when_unverified = false,
+  -- },
+
+  -- craft = {
+  --   enabled = true,
+  --   include_player_inventory = true,
+  --   prefer_consume_order = "player_first", -- or "storage_first"
+  -- },
+
+  -- debug = {
+  --   dump_apis_on_init = false,
+  --   dump_key = "F6",
+  --   log_index_summary = true, -- log unified pool totals every 5s
+  -- },
+
+  -- After verifying craft hook paths in a Palworld 1.0 dump
+  -- (research/notes/verified-hooks.md), activate F1 here:
+  -- api = {
+  --   craft = {
+  --     count_hook = "/Script/Pal.<VerifiedClass>:<VerifiedCountFn>",
+  --     consume_hook = "/Script/Pal.<VerifiedClass>:<VerifiedConsumeFn>",
+  --   },
+  -- },
+}
