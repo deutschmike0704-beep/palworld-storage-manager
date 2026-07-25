@@ -85,6 +85,7 @@ Some UE4SS builds use `WinGDK/Mods/` instead of `WinGDK/ue4ss/Mods/` — check y
 | Doc | Purpose |
 | --- | --- |
 | **[CLAUDE.md](./CLAUDE.md)** | **Start here** — full implementer brief (Claude reads this first) |
+| **[PROMPT_CLAUDE_TERMINAL.md](./PROMPT_CLAUDE_TERMINAL.md)** | **Paste-ready** full-dev prompt (implement + test + debug + fix) |
 | [docs/design/PSEUDOCODE_v1.md](./docs/design/PSEUDOCODE_v1.md) | Module pseudocode |
 | [docs/design/FEATURE_SPEC_v1.md](./docs/design/FEATURE_SPEC_v1.md) | Feature spec, tests, risks |
 
