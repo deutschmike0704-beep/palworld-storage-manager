@@ -1,12 +1,12 @@
 {
   "name": "PalStorageManager",
   "friendly_name": "Palworld Storage Manager",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "",
-  "description": "Storage QoL mod for Palworld 1.0 (UE4SS). Primary target: Xbox PC Game Pass / WinGDK.",
+  "description": "Storage QoL mod for Palworld 1.0 (UE4SS): unified craft storage + unlimited weight inside your base. Primary target: Xbox PC Game Pass / WinGDK.",
   "runtime": "ue4ss-lua",
   "game": "Palworld",
   "game_version": "1.0",
   "platform_primary": "xbox-game-pass-wingdk",
-  "status": "scaffold"
+  "status": "beta-code-complete; craft hooks pending 1.0 dump verification (see research/notes/verified-hooks.md)"
 }
