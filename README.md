@@ -72,16 +72,26 @@ Exact UE4SS path can vary by UE4SS version / install method; packaging scripts w
 
 ---
 
+## Implementation (for AI / contributors)
+
+| Doc | Purpose |
+| --- | --- |
+| **[CLAUDE.md](./CLAUDE.md)** | **Start here** — full implementer brief (Claude reads this first) |
+| [docs/design/PSEUDOCODE_v1.md](./docs/design/PSEUDOCODE_v1.md) | Module pseudocode |
+| [docs/design/FEATURE_SPEC_v1.md](./docs/design/FEATURE_SPEC_v1.md) | Feature spec, tests, risks |
+
+**v1 features:** (1) craft uses all base storage (2) unlimited weight inside base camp.
+
 ## Development status
 
 | Area | State |
 | --- | --- |
 | Folder structure | Done |
 | GitHub private repo | Done |
+| Design / pseudocode / Claude brief | Done |
 | Lua implementation | Pending |
 | Config schema | Pending |
 | Packaging / release | Pending |
-| Docs / design | Pending |
 
 ---
 

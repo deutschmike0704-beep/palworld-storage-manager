@@ -18,16 +18,21 @@ Palworld (UE5)
                     └── config/    # load / validate user config
 ```
 
-## Module responsibilities (planned)
+## Module responsibilities (v1)
 
 | Module | Responsibility |
 | --- | --- |
-| `core` | Item stacks, containers, transfer rules, safety checks |
-| `features` | Sort, deposit, withdraw, search, filters, hotkeys |
-| `hooks` | Intercept relevant gameplay / UI events |
-| `ui` | Any custom widgets or HUD hooks |
-| `util` | Logging, tables, path helpers, debouncing |
-| `config` | Defaults merge, validation, hot-reload (if feasible) |
+| `core` | Storage index, item count/consume, base-context (inside camp?) |
+| `features` | **F1** unified craft storage · **F2** infinite weight in base |
+| `hooks` | UE4SS craft material hooks + weight poll / recalculate hooks |
+| `ui` | (v1 unused) |
+| `util` | Logging, throttle |
+| `config` | Defaults merge, feature flags |
+
+Design source of truth:
+
+- [`docs/design/FEATURE_SPEC_v1.md`](../design/FEATURE_SPEC_v1.md)
+- [`docs/design/PSEUDOCODE_v1.md`](../design/PSEUDOCODE_v1.md)
 
 ## Optional content layer
 
