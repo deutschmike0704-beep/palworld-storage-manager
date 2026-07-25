@@ -1,12 +1,16 @@
 # PSEUDOCODE v1 — PalStorageManager
 
 > Kompakter Implementierungs-Blueprint für Palworld **1.0** / UE4SS Lua.  
+> **Plattform:** Xbox PC **Game Pass / Microsoft Store (WinGDK)** — nicht Steam-primär.  
 > Volle Spec: [`FEATURE_SPEC_v1.md`](./FEATURE_SPEC_v1.md)
 
 **Features**
 
 1. **F1** Craft an Werkbank nutzt Items aus **allen Lagern der aktuellen Base**
 2. **F2** **Unbegrenztes Gewicht**, solange Spieler **im Base-Lager** ist
+
+**Deploy-Default:**  
+`src/PalStorageManager` → `<GamePass>/Pal/Binaries/WinGDK/ue4ss/Mods/PalStorageManager/`
 
 Alle Class-/Function-Namen unten sind **Platzhalter** → im 1.0-SDK-Dump verifizieren.
 

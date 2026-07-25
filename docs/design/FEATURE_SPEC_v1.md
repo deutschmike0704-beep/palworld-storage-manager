@@ -1,8 +1,12 @@
 # Feature Spec v1 — PalStorageManager (Palworld 1.0)
 
-**Target:** Palworld **1.0** + **UE4SS** (Lua)  
+**Target game:** Palworld **1.0**  
+**Target platform:** **Xbox PC Game Pass / Microsoft Store (WinGDK)** — primary  
+**Runtime:** **UE4SS** (Lua), manually installed under `Pal/Binaries/WinGDK/`  
 **Status:** Spec + Pseudocode only — no implementation  
-**Audience:** Implementer (e.g. Claude) working from this document
+**Audience:** Implementer (e.g. Claude) working from this document  
+
+> Steam (`Win64`) is **not** the primary target. Logic may work there too; install paths and docs must assume **Game Pass / WinGDK**.
 
 ---
 

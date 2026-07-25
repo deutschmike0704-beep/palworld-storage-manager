@@ -3,20 +3,22 @@
 ## Runtime model
 
 ```
-Palworld (UE5)
-  └── UE4SS
-        └── Mods/PalStorageManager
-              ├── enabled.txt
-              ├── config/          # defaults shipped with mod
-              └── Scripts/
-                    ├── main.lua   # bootstrap / require graph
-                    ├── core/      # storage + inventory domain logic
-                    ├── features/  # discrete player-facing features
-                    ├── hooks/     # Bind/Hook registrations
-                    ├── ui/        # optional UI glue
-                    ├── util/      # pure helpers
-                    └── config/    # load / validate user config
+Palworld 1.0 — Xbox PC Game Pass (WinGDK)
+  └── Pal/Binaries/WinGDK/
+        └── UE4SS
+              └── Mods/PalStorageManager
+                    ├── enabled.txt
+                    ├── config/          # defaults shipped with mod
+                    └── Scripts/
+                          ├── main.lua   # bootstrap / require graph
+                          ├── core/      # storage + inventory domain logic
+                          ├── features/  # F1 craft storage, F2 weight
+                          ├── hooks/     # Bind/Hook registrations
+                          ├── util/      # pure helpers
+                          └── config/    # load / validate user config
 ```
+
+Primary platform: **Game Pass / Microsoft Store (WinGDK)**. Steam `Win64` is secondary only.
 
 ## Module responsibilities (v1)
 

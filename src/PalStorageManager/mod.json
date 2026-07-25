@@ -3,8 +3,10 @@
   "friendly_name": "Palworld Storage Manager",
   "version": "0.0.0",
   "author": "",
-  "description": "Storage quality-of-life mod for Palworld (UE4SS).",
+  "description": "Storage QoL mod for Palworld 1.0 (UE4SS). Primary target: Xbox PC Game Pass / WinGDK.",
   "runtime": "ue4ss-lua",
   "game": "Palworld",
+  "game_version": "1.0",
+  "platform_primary": "xbox-game-pass-wingdk",
   "status": "scaffold"
 }

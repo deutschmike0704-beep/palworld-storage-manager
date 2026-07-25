@@ -1,22 +1,24 @@
 # Palworld Storage Manager
 
-UE4SS-based storage management mod for **Palworld**.
+UE4SS-based storage management mod for **Palworld 1.0**.
 
-> Status: **Scaffold only** — folder structure and repo bootstrap. Implementation follows next.
+> **Target platform: Xbox PC Game Pass / Microsoft Store (WinGDK)** — not Steam-primary.  
+> Status: Design + scaffold — implementation follows.
 
 ---
 
 ## Overview
 
-This repository hosts the development workspace for **PalStorageManager**, a client/server-compatible storage quality-of-life mod.
+This repository hosts the development workspace for **PalStorageManager**, a storage quality-of-life mod for the **Game Pass (WinGDK)** build of Palworld.
 
 Primary stack (planned):
 
 | Layer | Tech |
 | --- | --- |
-| Runtime | [RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) (Lua) |
+| Game | Palworld **1.0** — **Xbox PC Game Pass / MS Store** |
+| Binary folder | `Pal/Binaries/WinGDK/` (not Steam `Win64`) |
+| Runtime | [RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) Lua — **manual install** (no Steam Workshop) |
 | Optional assets | Unreal `.pak` / DataTable overrides |
-| Game | Palworld (`Pal`) |
 
 ---
 
@@ -58,17 +60,23 @@ Primary stack (planned):
 
 ---
 
-## Install target (game side)
+## Install target (Game Pass)
 
 ```
-<Palworld>/Pal/Binaries/Win64/ue4ss/Mods/PalStorageManager/
-├── Scripts/
-│   └── main.lua
-├── config/
-└── enabled.txt
+<XboxGames>/Palworld/Content/   # typical root — may vary
+  Pal/Binaries/WinGDK/
+    Palworld-WinGDK-Shipping.exe
+    dwmapi.dll                  # UE4SS loader (per build)
+    ue4ss/Mods/PalStorageManager/
+      Scripts/main.lua
+      config/
+      enabled.txt
+      mod.json
 ```
 
-Exact UE4SS path can vary by UE4SS version / install method; packaging scripts will normalize this later.
+Some UE4SS builds use `WinGDK/Mods/` instead of `WinGDK/ue4ss/Mods/` — check your UE4SS layout.
+
+**Not Steam:** Do not use Steam Workshop paths or `Pal/Binaries/Win64/` as the primary install target.
 
 ---
 
