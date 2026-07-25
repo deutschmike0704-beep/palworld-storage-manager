@@ -1,0 +1,28 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Explicit text types
+*.lua text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ini text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pak binary
+*.uasset binary
+*.uexp binary
+*.ubulk binary
+*.ucas binary
+*.utoc binary
+*.zip binary
+*.7z binary

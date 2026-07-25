@@ -1,0 +1,77 @@
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# === Editors / IDEs ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+*.code-workspace
+
+# === Build / Packaging output ===
+dist/**
+!dist/**/.gitkeep
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# === Unreal Engine / Pak ===
+*.pak
+*.ucas
+*.utoc
+*.ubulk
+*.uasset
+*.uexp
+*.umap
+*.saved
+Intermediate/
+Binaries/
+DerivedDataCache/
+Saved/
+
+# === UE4SS dumps & generated SDK (large, local only) ===
+research/sdk-dump/**
+!research/sdk-dump/.gitkeep
+research/fmodel/**
+!research/fmodel/.gitkeep
+tools/dumps/**
+!tools/dumps/.gitkeep
+**/CXXHeaderDump/
+**/UE4SS_Signatures/
+**/MemberVariableLayout.ini
+**/UE4SS.log
+**/UE4SS-settings.ini.bak
+
+# Generated Lua types (machine-specific)
+**/shared/types/
+**/Mods/shared/
+
+# === Game install / local paths ===
+local/
+.gamepath
+.env
+.env.*
+!.env.example
+
+# === Logs & temp ===
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# === Secrets / private notes ===
+secrets/
+*.pem
+*.key
+credentials.*

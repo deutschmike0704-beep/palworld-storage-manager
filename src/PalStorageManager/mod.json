@@ -1,0 +1,10 @@
+{
+  "name": "PalStorageManager",
+  "friendly_name": "Palworld Storage Manager",
+  "version": "0.0.0",
+  "author": "",
+  "description": "Storage quality-of-life mod for Palworld (UE4SS).",
+  "runtime": "ue4ss-lua",
+  "game": "Palworld",
+  "status": "scaffold"
+}
